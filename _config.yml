@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+#permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Ian Slay
+tagline:          'A Jekyll theme'
+description:      'Tinkerer and Maker.'
+url:              "http://ianslay.com"
+baseurl:
+
+author:
+  name:           'Ian Slay'
+  url:
+
+plugins: [jekyll-paginate]
+
+paginate:         3
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/ianslay

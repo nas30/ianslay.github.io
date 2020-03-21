@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<!-- This loops through the paginated projects -->
+{% for post in paginator.projects %}
+  <h1><a href="{{ projects.url }}">{{ projects.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ projects.date }}</span>
+  </p>
+
+
+{% endfor %}
